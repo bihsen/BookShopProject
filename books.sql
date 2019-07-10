@@ -48,13 +48,13 @@ CREATE TABLE IF NOT EXISTS `books` (
 --
 
 INSERT INTO `books` (`book_id`, `title`, `release_date`, `category`, `description`, `price`, `format`, `cover`, `author_id`) VALUES
-(61, 'Lord of the Rings', '1954', 'Fantasy', '2 small guys destroy stolen jewellery of a homeless person', '35', 'Hardback', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\lotr_book.png', 1),
-(62, 'The Hobbit', '1937', 'Fantasy', 'Introvert is forced to leave the house', '18', 'Softcover', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\hobbit_book.jpg', 1),
-(63, 'La Part de l\'Autre', '2001', 'Art', 'Alternate History of little Adolf', '18', 'Hardcover', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\lpdla_book.jpg', 2),
-(64, 'La Peste', '1947', 'Art', 'World goes down', '19', 'Softcover', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\peste_book.jpg', 3),
-(65, 'Shakespear : Collected Works', '1602', 'Art', 'Murder and tragedy in fancy english', '43', 'Hardback', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\shakespear_book.jpg', 4),
-(66, 'Des Cannibales', '1557', 'Art', 'Something in french i\'d say', '13', 'Softcover', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\cannibales_book.jpg', 5),
-(67, 'Faust', '1808', 'Art', 'Gambling addiction of god and devil', '24', 'Softcover', 'C:\\wamp64\\www\\BookShopProject\\coverpics\\faust_book.jpg', 6);
+(61, 'Lord of the Rings', '1954', 'Fantasy', '2 small guys destroy stolen jewellery of a homeless person', '35', 'Hardback', 'coverpics\\lotr_book.png', 1),
+(62, 'The Hobbit', '1937', 'Fantasy', 'Introvert is forced to leave the house', '18', 'Softcover', 'coverpics\\hobbit_book.jpg', 1),
+(63, 'La Part de l\'Autre', '2001', 'Art', 'Alternate History of little Adolf', '18', 'Hardcover', 'coverpics\\lpdla_book.jpg', 2),
+(64, 'La Peste', '1947', 'Art', 'World goes down', '19', 'Softcover', 'coverpics\\peste_book.jpg', 3),
+(65, 'Shakespear : Collected Works', '1602', 'Art', 'Murder and tragedy in fancy english', '43', 'Hardback', 'coverpics\\shakespear_book.jpg', 4),
+(66, 'Des Cannibales', '1557', 'Art', 'Something in french i\'d say', '13', 'Softcover', 'coverpics\\cannibales_book.jpg', 5),
+(67, 'Faust', '1808', 'Art', 'Gambling addiction of god and devil', '24', 'Softcover', 'coverpics\\faust_book.jpg', 6);
 
 --
 -- Constraints der exportierten Tabellen
